@@ -5,6 +5,6 @@ Made with:
 - Vite v5.2.11
 - Firebase Hosting
 
-Link: [<i>Notihng Yet</i>]
+Link: [<i>Nothing Yet</i>]
 
 <i>All information presented in this guide belongs to Bethesda Game Studio, ZeniMax Media Inc., and all of their affiliates.</i>
