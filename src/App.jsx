@@ -1,34 +1,39 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './components/Home';
+import AchieveHome from './components/achievements/AchievementHome';
+import CollectibleA from './components/achievements/CollectibleA';
+import CombatA from './components/achievements/CombatA';
+import CompanionA from './components/achievements/CompanionA';
+import CraftingA from './components/achievements/CraftingA';
+import MiscA from './components/achievements/MiscA';
+import PlayerMilestones from './components/achievements/PlayrerMilestones';
+import QuestA from './components/achievements/QuestA';
+import SettlementMilestones from './components/achievements/SettlementA';
+import GameGuidesHome from './components/game-guides/GameGuideHome';
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+   <>
+    <Router>
+      <div className='app'>
+        <Routes>
+          <Route path='/achievement-guides/collectibles' element={<CollectibleA />} />
+          <Route path='/achievement-guides/combat' element={<CombatA />} />
+          <Route path='/achievement-guides/companions' element={<PlayerMilestones />} />
+          <Route path='/achievement-guides/crafting' element={<CompanionA />} />
+          <Route path='/achievement-guides/misc' element={<CraftingA />} />
+          <Route path='/achievement-guides/player-milestones' element={<MiscA />} />
+          <Route path='/achievement-guides/quests' element={<QuestA />} />
+          <Route path='/achievement-guides/settlements' element={<SettlementMilestones />} />
+          <Route path='/achievement-guides' element={<AchieveHome />} />
+          <Route path='/game-guides' element={<GameGuidesHome />} />
+          <Route path='/' element={<Home />} />
+        </Routes>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    </Router>
+   </>
   )
 }
 
