@@ -11,7 +11,6 @@ import PlayerMilestones from './components/achievements/PlayrerMilestones';
 import QuestA from './components/achievements/QuestA';
 import SettlementMilestones from './components/achievements/SettlementA';
 import GameGuidesHome from './components/game-guides/GameGuideHome';
-import './App.css'
 
 function App() {
   return (
@@ -21,10 +20,10 @@ function App() {
         <Routes>
           <Route path='/achievement-guides/collectibles' element={<CollectibleA />} />
           <Route path='/achievement-guides/combat' element={<CombatA />} />
-          <Route path='/achievement-guides/companions' element={<PlayerMilestones />} />
-          <Route path='/achievement-guides/crafting' element={<CompanionA />} />
-          <Route path='/achievement-guides/misc' element={<CraftingA />} />
-          <Route path='/achievement-guides/player-milestones' element={<MiscA />} />
+          <Route path='/achievement-guides/companions' element={<CompanionA />} />
+          <Route path='/achievement-guides/crafting' element={<CraftingA />} />
+          <Route path='/achievement-guides/misc' element={<MiscA />} />
+          <Route path='/achievement-guides/player-milestones' element={<PlayerMilestones />} />
           <Route path='/achievement-guides/quests' element={<QuestA />} />
           <Route path='/achievement-guides/settlements' element={<SettlementMilestones />} />
           <Route path='/achievement-guides' element={<AchieveHome />} />
