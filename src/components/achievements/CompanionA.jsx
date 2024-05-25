@@ -11,6 +11,7 @@ function CompanionA() {
         [Companion_001,'Never Go It Alone', 'Recruit 5 separate companions', '20G', 'Bronze'],
         [Companion_002,'Lovable', 'Reach maximum relationship level with a companion', '20G', 'Bronze']
     ];
+    
     return (
         <div className='achieve-home'>
             <Link to='/achievement-guides'>

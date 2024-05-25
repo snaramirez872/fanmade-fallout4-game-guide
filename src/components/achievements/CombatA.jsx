@@ -9,10 +9,11 @@ import Combat_003 from '../../assets/images/achievement-icons/combat_003.jpg';
 
 function CombatA() {
     const combat = [
-        [Combat_001,'Masshole','Kill 300 People','20G','Bronze'],
-        [Combat_002,'Animal Control','Kill 300 Creatures','20G','Bronze'],
-        [Combat_003,'...The Harder They Fall','Kill 5 Giant Creatures','20G','Bronze']
+        [Combat_001,'Masshole','Kill 300 people','20G','Bronze'],
+        [Combat_002,'Animal Control','Kill 300 creatures','20G','Bronze'],
+        [Combat_003,'...The Harder They Fall','Kill 5 giant creatures','20G','Bronze']
     ];
+    
     return (
         <div className='achieve-home'>
             <Link to='/achievement-guides'>

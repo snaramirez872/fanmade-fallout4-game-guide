@@ -9,10 +9,11 @@ import Collectible_003 from '../../assets/images/achievement-icons/collectible_0
 
 function CollectibleA() {
     const collectibles = [
-        [Collectible_001, 'They\'re Not Dolls...', 'Collect 10 Vault-Tec Bobbleheads', '10G', 'Bronze'],
-        [Collectible_002, '...They\'re Action Figures', 'Collect all 20 Vault-Tec Bobbleheads', '20G', 'Silver'],
-        [Collectible_003, 'Print\'s Not Dead', 'Read 20 Magazines', '20G', 'Bronze']
+        [Collectible_001, 'They\'re Not Dolls...', 'Collect 10 Vault-Tec bobbleheads', '10G', 'Bronze'],
+        [Collectible_002, '...They\'re Action Figures', 'Collect all 20 Vault-Tec bobbleheads', '20G', 'Silver'],
+        [Collectible_003, 'Print\'s Not Dead', 'Read 20 magazines', '20G', 'Bronze']
     ];
+
     return (
         <div className='achieve-home'>
             <Link to='/achievement-guides'>
@@ -38,7 +39,7 @@ function CollectibleA() {
                     </ul>
                     <li>The player home in Vault 81 comes pre-furnished with a Bobblehead stand. Access to the player home is given upon assisting Dr. Penske at the end of the side quest "Hole in the Wall". More information can be found <a href='#'>here</a>.</li>
                     <ul>
-                        <li>The same bobblehead stand can be crafted and placed in any of your settlements (<b>Note:</b> Only 1 of each bobblehead officially exists in the game and more cannot be found without the use of cheats and/or mods)</li>
+                        <li>The same bobblehead stand can be crafted and placed in any of your settlements (<b>Note:</b> Only 1 of each bobblehead officially exists in the game and more cannot be found without the use of cheats and/or mods).</li>
                     </ul>
                     <li>Magazine racks and shelves can be built and placed in your settlements via the Settlement Workshops as a way to store your magazines. (<b>Note:</b> Each Magazine Rack and Magazine Shelf can only hold a limited amount).</li>
                 </ul>
