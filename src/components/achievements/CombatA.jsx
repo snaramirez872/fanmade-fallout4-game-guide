@@ -13,7 +13,7 @@ function CombatA() {
         [Combat_002,'Animal Control','Kill 300 creatures','20G','Bronze'],
         [Combat_003,'...The Harder They Fall','Kill 5 giant creatures','20G','Bronze']
     ];
-    
+
     return (
         <div className='achieve-home'>
             <Link to='/achievement-guides'>
@@ -23,7 +23,7 @@ function CombatA() {
                 <p>The Wasteland featured in the Fallout universe plays host to many NPCs and Irradiated Creatures. Some of which start fights with the player. You can also start the fights with them, but do so carefully.</p>
             </section>
             <section className='main'>
-                <h1>Combat Milestones</h1>
+                <h1>Combat</h1>
                 <Table dat={combat} />
                 <Disclaimer />
             </section>

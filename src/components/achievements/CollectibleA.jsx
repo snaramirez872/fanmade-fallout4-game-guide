@@ -25,7 +25,7 @@ function CollectibleA() {
                 <p>Also scattered throughout the Commonwealth are various Comic Books and Magazines that reward the player with permanent effects and stat buffs when picked up.</p>
             </section>
             <section className='main'>
-                <h1>Collectible Milestones</h1>
+                <h1>Collectibles</h1>
                 <Table dat={collectibles} />
                 <Disclaimer />
             </section>

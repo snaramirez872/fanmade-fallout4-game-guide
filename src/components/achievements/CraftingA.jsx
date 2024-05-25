@@ -32,7 +32,7 @@ function CraftingA() {
                 </ul>
             </section>
             <section className='main'>
-                <h1>Crafting Milestones</h1>
+                <h1>Crafting</h1>
                 <Table dat={crafting} />
                 <Disclaimer />
             </section>
