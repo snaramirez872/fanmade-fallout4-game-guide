@@ -32,7 +32,7 @@ function MiscA() {
                 <p>Back</p>
             </Link>
             <section className='main'>
-                <h1>Miscellaneous Milestones</h1>
+                <h1>Miscellaneous</h1>
                 <Table dat={misc} />
                 <Disclaimer />
             </section>
