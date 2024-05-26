@@ -7,7 +7,7 @@ import CombatA from './components/achievements/CombatA';
 import CompanionA from './components/achievements/CompanionA';
 import CraftingA from './components/achievements/CraftingA';
 import MiscA from './components/achievements/MiscA';
-import PlayerMilestones from './components/achievements/PlayrerMilestones';
+import PlayerMilestones from './components/achievements/PlayerMilestones';
 import QuestA from './components/achievements/QuestA';
 import SettlementMilestones from './components/achievements/SettlementA';
 import GameGuidesHome from './components/game-guides/GameGuideHome';
