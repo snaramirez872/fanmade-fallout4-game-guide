@@ -28,6 +28,9 @@ function Automatron() {
                 <Table dat={automatron} />
                 <Disclaimer />
             </section>
+            <section className='extra-info'>
+                <h1>Helpful Information</h1>
+            </section>
         </div>
     );
 }
