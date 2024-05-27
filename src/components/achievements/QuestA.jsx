@@ -107,7 +107,7 @@ function QuestA() {
                     <ul>
                         <li><b>Railroad</b></li>
                         <ul>
-                            <li>Completion of "Underground Undercover" and "Precipice of War" and Starting "Rockets' Red Glare" will make the Brotherhood of Steel permanently hostile. This will also automatically fail any Bortherhood quests that you may still have in your Pip-Boy.</li>
+                            <li>Completion of "Underground Undercover" and "Precipice of War" as well as starting "Rockets' Red Glare" will make the Brotherhood of Steel permanently hostile. This will also automatically fail any Bortherhood quests that you may still have in your Pip-Boy.</li>
                         </ul>
                         <li><b>Brotherhood of Steel</b></li>
                         <ul>
