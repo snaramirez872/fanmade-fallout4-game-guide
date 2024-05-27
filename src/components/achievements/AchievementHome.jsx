@@ -9,7 +9,7 @@ function AchieveHome() {
             </Link>
             <h1>List of Achievements</h1>
             <section className='base-list'>
-                <h2>Base Game (50)</h2>
+                <h2>Base Game (50 Achievements)</h2>
                 <Link to='/achievement-guides/collectibles'>
                     <p>Collectibles</p>
                 </Link>
@@ -36,13 +36,25 @@ function AchieveHome() {
                 </Link>
             </section>
             <section className='dlc-list'>
-                <h2>DLC</h2>
-                <a href='#'>Automatron</a>
-                <a href='#'>Wasteland Workshop</a>
-                <a href='#'>Far Harbor</a>
-                <a href='#'>Contraptions</a>
-                <a href='#'>Vault-Tec Workshop</a>
-                <a href='#'>Nuka-World</a>
+                <h2>DLC (34 Achievements)</h2>
+                <Link to='/achievement-guides/automatron'>
+                    <p>Automatron</p>
+                </Link>
+                <Link to='/achievement-guides/wasteland-workshop'>
+                    <p>Wasteland Workshop</p>
+                </Link>
+                <Link to='/achievement-guides/far-harbor'>
+                    <p>Far Harbor</p>
+                </Link>
+                <Link to='/achievement-guides/contraptions'>
+                    <p>Contraptions</p>
+                </Link>
+                <Link to='/achievement-guides/vault-tec-workshop'>
+                    <p>Vault-Tec Workshop</p>
+                </Link>
+                <Link to='/achievement-guides/nuka-world'>
+                    <p>Nuka World</p>
+                </Link>
             </section>
         </div>
     );

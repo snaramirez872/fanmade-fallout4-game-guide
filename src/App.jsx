@@ -10,6 +10,14 @@ import MiscA from './components/achievements/MiscA';
 import PlayerMilestones from './components/achievements/PlayerMilestones';
 import QuestA from './components/achievements/QuestA';
 import SettlementMilestones from './components/achievements/SettlementA';
+
+import Automatron from './components/achievements/DLC/Automatron';
+import WastelandWorkshop from './components/achievements/DLC/WW';
+import FarHarbor from './components/achievements/DLC/FarHarbor';
+import Contraptions from './components/achievements/DLC/Contraptions';
+import VaultTecWorksop from './components/achievements/DLC/VTW';
+import NukaWorld from './components/achievements/DLC/NukaWorld';
+
 import GameGuidesHome from './components/game-guides/GameGuideHome';
 
 function App() {
@@ -18,6 +26,12 @@ function App() {
     <Router>
       <div className='app'>
         <Routes>
+          <Route path='/achievement-guides/automatron' element={<Automatron />} />
+          <Route path='/achievement-guides/wasteland-workshop' element={<WastelandWorkshop />} />
+          <Route path='/achievement-guides/far-harbor' element={<FarHarbor />} />
+          <Route path='/achievement-guides/contraptions' element={<Contraptions />} />
+          <Route path='/achievement-guides/vault-tec-workshop' element={<VaultTecWorksop />} />
+          <Route path='/achievement-guides/nuka-world' element={<NukaWorld />} />
           <Route path='/achievement-guides/collectibles' element={<CollectibleA />} />
           <Route path='/achievement-guides/combat' element={<CombatA />} />
           <Route path='/achievement-guides/companions' element={<CompanionA />} />
