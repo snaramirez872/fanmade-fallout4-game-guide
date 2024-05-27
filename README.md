@@ -1,4 +1,4 @@
-# Welcome to Sean Ramire's Fallout 4 Guide!
+# Welcome to Sean Ramirez's Unofficial Fallout 4 Guide!
 
 Made with:
 - NPM v10.8.0
