@@ -30,6 +30,9 @@ function Automatron() {
             </section>
             <section className='extra-info'>
                 <h1>Helpful Information</h1>
+                <ul>
+                    <li>Robots in the wasteland will start having Robot Mods in their inventories after completing "Mechanical Menace".</li>
+                </ul>
             </section>
         </div>
     );
