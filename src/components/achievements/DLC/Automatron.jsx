@@ -31,7 +31,12 @@ function Automatron() {
             <section className='extra-info'>
                 <h1>Helpful Information</h1>
                 <ul>
-                    <li>Robots in the wasteland will start having Robot Mods in their inventories after completing "Mechanical Menace".</li>
+                    <li>After completing "Mechanical Menace":</li>
+                    <ul>
+                        <li>A new group of Raiders called "Rust Devils" will start to spawn throughout the Commonwealth.</li>
+                        <li>Modified robots will spawn throughout the Commonwealth.</li>
+                        <li>Robot Mods will start being in the inventories of both regular and modified robots.</li>
+                    </ul>
                 </ul>
             </section>
         </div>
