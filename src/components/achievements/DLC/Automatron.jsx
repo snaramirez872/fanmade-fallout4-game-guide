@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 import Table from "../../reusable/Table";
 import Disclaimer from "../../reusable/Disclaimer";
 
-import Automatron_001 from '../../assets/images/achievement-icons/automatron_001.jpg';
-import Automatron_002 from '../../assets/images/achievement-icons/automatron_002.jpg';
-import Automatron_003 from '../../assets/images/achievement-icons/automatron_003.jpg';
-import Automatron_004 from '../../assets/images/achievement-icons/automatron_004.jpg';
-import Automatron_005 from '../../assets/images/achievement-icons/automatron_005.jpg';
+import Automatron_001 from '../../../assets/images/achievement-icons/automatron_001.jpg';
+import Automatron_002 from '../../../assets/images/achievement-icons/automatron_002.jpg';
+import Automatron_003 from '../../../assets/images/achievement-icons/automatron_003.jpg';
+import Automatron_004 from '../../../assets/images/achievement-icons/automatron_004.jpg';
+import Automatron_005 from '../../../assets/images/achievement-icons/automatron_005.jpg';
 
 function Automatron() {
     const automatron = [

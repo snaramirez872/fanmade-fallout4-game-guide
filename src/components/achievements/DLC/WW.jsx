@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 import Table from "../../reusable/Table";
 import Disclaimer from "../../reusable/Disclaimer";
 
-import ww_001 from '../../assets/images/achievement-icons/ww_001.jpg';
-import ww_002 from '../../assets/images/achievement-icons/ww_002.jpg';
-import ww_003 from '../../assets/images/achievement-icons/ww_003.jpg';
+import ww_001 from '../../../assets/images/achievement-icons/ww_001.jpg';
+import ww_002 from '../../../assets/images/achievement-icons/ww_002.jpg';
+import ww_003 from '../../../assets/images/achievement-icons/ww_003.jpg';
 
 function WastelandWorkshop() {
     const wasteland = [

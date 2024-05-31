@@ -3,16 +3,16 @@ import { Link } from "react-router-dom";
 import Table from "../../reusable/Table";
 import Disclaimer from "../../reusable/Disclaimer";
 
-import farharbor_001 from '../../assets/images/achievement-icons/farharbor_001.jpg';
-import farharbor_002 from '../../assets/images/achievement-icons/farharbor_002.jpg';
-import farharbor_003 from '../../assets/images/achievement-icons/farharbor_003.jpg';
-import farharbor_004 from '../../assets/images/achievement-icons/farharbor_004.jpg';
-import farharbor_005 from '../../assets/images/achievement-icons/farharbor_005.jpg';
-import farharbor_006 from '../../assets/images/achievement-icons/farharbor_006.jpg';
-import farharbor_007 from '../../assets/images/achievement-icons/farharbor_007.jpg';
-import farharbor_008 from '../../assets/images/achievement-icons/farharbor_008.jpg';
-import farharbor_009 from '../../assets/images/achievement-icons/farharbor_009.jpg';
-import farharbor_010 from '../../assets/images/achievement-icons/farharbor_010.jpg';
+import farharbor_001 from '../../../assets/images/achievement-icons/farharbor_001.jpg';
+import farharbor_002 from '../../../assets/images/achievement-icons/farharbor_002.jpg';
+import farharbor_003 from '../../../assets/images/achievement-icons/farharbor_003.jpg';
+import farharbor_004 from '../../../assets/images/achievement-icons/farharbor_004.jpg';
+import farharbor_005 from '../../../assets/images/achievement-icons/farharbor_005.jpg';
+import farharbor_006 from '../../../assets/images/achievement-icons/farharbor_006.jpg';
+import farharbor_007 from '../../../assets/images/achievement-icons/farharbor_007.jpg';
+import farharbor_008 from '../../../assets/images/achievement-icons/farharbor_008.jpg';
+import farharbor_009 from '../../../assets/images/achievement-icons/farharbor_009.jpg';
+import farharbor_010 from '../../../assets/images/achievement-icons/farharbor_010.jpg';
 
 function FarHarbor() {
     const farHarbor = [
@@ -33,9 +33,6 @@ function FarHarbor() {
             <Link to='/achievement-guides'>
                 <p>Back</p>
             </Link>
-            <section className='sec-intro'>
-                <p>[Replace with Text]</p>farharbor
-            </section>
             <section className='main'>
                 <Table dat={farHarbor} />
                 <Disclaimer />
