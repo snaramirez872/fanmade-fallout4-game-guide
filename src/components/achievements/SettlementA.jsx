@@ -1,7 +1,7 @@
 import React from "react";
-import { Link } from 'react-router-dom';
 import Table from "../reusable/Table";
 import Disclaimer from "../reusable/Disclaimer";
+import AchieveNav from "../AchievementNavBars/achieve-nav";
 
 import Settlement_001 from '../../assets/images/achievement-icons/settlements_001.jpg';
 import Settlement_002 from '../../assets/images/achievement-icons/settlements_002.jpg';
@@ -16,9 +16,7 @@ function SettlementMilestones() {
 
     return (
         <div className='achieve-home'>
-            <Link to='/achievement-guides'>
-                <p>Back</p>
-            </Link>
+            <AchieveNav />
             <section className='main'>
                 <h1>Settlements</h1>
                 <Table dat={settlements} />

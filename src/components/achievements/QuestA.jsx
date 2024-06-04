@@ -1,7 +1,7 @@
 import React from "react";
-import { Link } from 'react-router-dom';
 import Table from "../reusable/Table";
 import Disclaimer from "../reusable/Disclaimer";
+import AchieveNav from "../AchievementNavBars/achieve-nav";
 
 import Quest_001 from '../../assets/images/achievement-icons/quest_001.jpg';
 import Quest_002 from '../../assets/images/achievement-icons/quest_002.jpg';
@@ -70,12 +70,7 @@ function QuestA() {
     
     return (
         <div className='achieve-home'>
-            <Link to='/achievement-guides'>
-                <p>Back</p>
-            </Link>
-            <section className='sec-intro'>
-                <p>More information about quests (<b>Warning:</b> Spoilers) can be found <a href='#' target='_blank' rel='noreferrer'>here</a>.</p>
-            </section>
+            <AchieveNav />
             <section className='main'>
                 <h1>Story Achievements</h1>
                 <section className='main-quests'>

@@ -1,7 +1,7 @@
 import React from "react";
-import { Link } from 'react-router-dom';
 import Table from "../reusable/Table";
 import Disclaimer from "../reusable/Disclaimer";
+import AchieveNav from "../AchievementNavBars/achieve-nav";
 
 import Combat_001 from '../../assets/images/achievement-icons/combat_001.jpg';
 import Combat_002 from '../../assets/images/achievement-icons/combat_002.jpg';
@@ -16,12 +16,7 @@ function CombatA() {
 
     return (
         <div className='achieve-home'>
-            <Link to='/achievement-guides'>
-                <p>Back</p>
-            </Link>
-            <section className='sec-intro'>
-                <p>The Wasteland featured in the Fallout universe plays host to many NPCs and Irradiated Creatures. Some of which start fights with the player. You can also start the fights with them, but do so carefully.</p>
-            </section>
+            <AchieveNav />
             <section className='main'>
                 <h1>Combat</h1>
                 <Table dat={combat} />

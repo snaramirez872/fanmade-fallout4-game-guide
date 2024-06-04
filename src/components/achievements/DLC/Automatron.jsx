@@ -1,7 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Table from "../../reusable/Table";
 import Disclaimer from "../../reusable/Disclaimer";
+import AchieveNav from "../../AchievementNavBars/achieve-nav";
 
 import Automatron_001 from '../../../assets/images/achievement-icons/automatron_001.jpg';
 import Automatron_002 from '../../../assets/images/achievement-icons/automatron_002.jpg';
@@ -20,9 +20,7 @@ function Automatron() {
 
     return (
         <div className='automatron'>
-            <Link to='/achievement-guides'>
-                <p>Back</p>
-            </Link>
+            <AchieveNav />
             <section className='main'>
                 <h1>Automatron</h1>
                 <Table dat={automatron} />

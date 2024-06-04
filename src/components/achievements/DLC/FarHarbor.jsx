@@ -1,7 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Table from "../../reusable/Table";
 import Disclaimer from "../../reusable/Disclaimer";
+import AchieveNav from "../../AchievementNavBars/achieve-nav";
 
 import farharbor_001 from '../../../assets/images/achievement-icons/farharbor_001.jpg';
 import farharbor_002 from '../../../assets/images/achievement-icons/farharbor_002.jpg';
@@ -30,9 +30,7 @@ function FarHarbor() {
 
     return (
         <div className='farHarbor'>
-            <Link to='/achievement-guides'>
-                <p>Back</p>
-            </Link>
+            <AchieveNav />
             <section className='main'>
                 <Table dat={farHarbor} />
                 <Disclaimer />

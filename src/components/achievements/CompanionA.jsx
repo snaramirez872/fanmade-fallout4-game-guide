@@ -1,7 +1,7 @@
 import React from "react";
-import { Link } from 'react-router-dom';
 import Table from "../reusable/Table";
 import Disclaimer from "../reusable/Disclaimer";
+import AchieveNav from "../AchievementNavBars/achieve-nav";
 
 import Companion_001 from '../../assets/images/achievement-icons/companion_001.jpg';
 import Companion_002 from '../../assets/images/achievement-icons/companion_002.jpg';
@@ -14,12 +14,7 @@ function CompanionA() {
 
     return (
         <div className='achieve-home'>
-            <Link to='/achievement-guides'>
-                <p>Back</p>
-            </Link>
-            <section className='sec-intro'>
-                <p>Like the other Fallout games, Fallout 4 offers a companion system. Each companion has a unique personality and they gain or lose affinity based on the player's actions and responses in dialogue. This takes the place of the Karma system that was present in previous games.</p>
-            </section>
+            <AchieveNav />
             <section className='main'>
                 <h1>Companions</h1>
                 <Table dat={companion} />

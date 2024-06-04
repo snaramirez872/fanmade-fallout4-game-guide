@@ -1,7 +1,7 @@
 import React from "react";
-import { Link } from 'react-router-dom';
 import Table from "../reusable/Table";
 import Disclaimer from "../reusable/Disclaimer";
+import AchieveNav from "../AchievementNavBars/achieve-nav";
 
 import Collectible_001 from '../../assets/images/achievement-icons/collectible_001.jpg';
 import Collectible_002 from '../../assets/images/achievement-icons/collectible_002.jpg';
@@ -16,14 +16,7 @@ function CollectibleA() {
 
     return (
         <div className='achieve-home'>
-            <Link to='/achievement-guides'>
-                <p>Back</p>
-            </Link>
-            <section className='sec-intro'>
-                <p>Fallout 4 has two sets of items that the player can collect for various <u>permanent</u> buffs.</p>
-                <p>Making a comeback from Fallout 3, there are 20 Vault-Tec Bobbleheads scattered throughout the Commonwealth that reward the player individual stat buffs when picked up.</p>
-                <p>Also scattered throughout the Commonwealth are various Comic Books and Magazines that reward the player with permanent effects and stat buffs when picked up.</p>
-            </section>
+            <AchieveNav />
             <section className='main'>
                 <h1>Collectibles</h1>
                 <Table dat={collectibles} />

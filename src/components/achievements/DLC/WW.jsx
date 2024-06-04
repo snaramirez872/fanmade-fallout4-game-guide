@@ -1,7 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Table from "../../reusable/Table";
 import Disclaimer from "../../reusable/Disclaimer";
+import AchieveNav from "../../AchievementNavBars/achieve-nav";
 
 import ww_001 from '../../../assets/images/achievement-icons/ww_001.jpg';
 import ww_002 from '../../../assets/images/achievement-icons/ww_002.jpg';
@@ -16,9 +16,7 @@ function WastelandWorkshop() {
 
     return (
         <div className='wasteland'>
-            <Link to='/achievement-guides'>
-                <p>Back</p>
-            </Link>
+            <AchieveNav />
             <section className='main'>
                 <h1>Wasteland Workshop</h1>
                 <Table dat={wasteland} />

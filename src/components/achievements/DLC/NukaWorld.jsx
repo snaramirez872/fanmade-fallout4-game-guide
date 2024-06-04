@@ -1,16 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Table from "../../reusable/Table";
 import Disclaimer from "../../reusable/Disclaimer";
+import AchieveNav from "../../AchievementNavBars/achieve-nav";
 
 function NukaWorld() {
     const nukaWorld = [];
 
     return (
         <div className='nukaWorld'>
-            <Link to='/achievement-guides'>
-                <p>Back</p>
-            </Link>
+            <AchieveNav />
             <section className='sec-intro'>
                 <p>[Replace with Text]</p>
             </section>

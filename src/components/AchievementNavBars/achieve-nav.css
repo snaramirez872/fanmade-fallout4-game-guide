@@ -1,0 +1,9 @@
+.achieve-nav,
+.achieve-links {
+    display: flex;
+}
+
+.achieve-nav {
+    justify-content: space-between;
+    place-items: center;
+}

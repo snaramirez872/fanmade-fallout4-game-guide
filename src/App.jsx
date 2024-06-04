@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
-import AchieveHome from './components/achievements/AchievementHome';
+import BaseGameAchievements from './components/achievements/base-game';
 import CollectibleA from './components/achievements/CollectibleA';
 import CombatA from './components/achievements/CombatA';
 import CompanionA from './components/achievements/CompanionA';
@@ -11,6 +11,7 @@ import PlayerMilestones from './components/achievements/PlayerMilestones';
 import QuestA from './components/achievements/QuestA';
 import SettlementMilestones from './components/achievements/SettlementA';
 
+import DLCAchievements from './components/achievements/DLC/dlc-achieve-home';
 import Automatron from './components/achievements/DLC/Automatron';
 import WastelandWorkshop from './components/achievements/DLC/WW';
 import FarHarbor from './components/achievements/DLC/FarHarbor';
@@ -26,21 +27,22 @@ function App() {
     <Router>
       <div className='app'>
         <Routes>
-          <Route path='/achievement-guides/automatron' element={<Automatron />} />
-          <Route path='/achievement-guides/wasteland-workshop' element={<WastelandWorkshop />} />
-          <Route path='/achievement-guides/far-harbor' element={<FarHarbor />} />
-          <Route path='/achievement-guides/contraptions' element={<Contraptions />} />
-          <Route path='/achievement-guides/vault-tec-workshop' element={<VaultTecWorksop />} />
-          <Route path='/achievement-guides/nuka-world' element={<NukaWorld />} />
-          <Route path='/achievement-guides/collectibles' element={<CollectibleA />} />
-          <Route path='/achievement-guides/combat' element={<CombatA />} />
-          <Route path='/achievement-guides/companions' element={<CompanionA />} />
-          <Route path='/achievement-guides/crafting' element={<CraftingA />} />
-          <Route path='/achievement-guides/misc' element={<MiscA />} />
-          <Route path='/achievement-guides/player-milestones' element={<PlayerMilestones />} />
-          <Route path='/achievement-guides/quests' element={<QuestA />} />
-          <Route path='/achievement-guides/settlements' element={<SettlementMilestones />} />
-          <Route path='/achievement-guides' element={<AchieveHome />} />
+          <Route path='/dlc-achievements/automatron' element={<Automatron />} />
+          <Route path='/dlc-achievements/wasteland-workshop' element={<WastelandWorkshop />} />
+          <Route path='/dlc-achievements/far-harbor' element={<FarHarbor />} />
+          <Route path='/dlc-achievements/contraptions' element={<Contraptions />} />
+          <Route path='/dlc-achievements/vault-tec-workshop' element={<VaultTecWorksop />} />
+          <Route path='/dlc-achievements/nuka-world' element={<NukaWorld />} />
+          <Route path='/base-game-achievements/collectibles' element={<CollectibleA />} />
+          <Route path='/base-game-achievements/combat' element={<CombatA />} />
+          <Route path='/base-game-achievements/companions' element={<CompanionA />} />
+          <Route path='/base-game-achievements/crafting' element={<CraftingA />} />
+          <Route path='/base-game-achievements/misc' element={<MiscA />} />
+          <Route path='/base-game-achievements/player-milestones' element={<PlayerMilestones />} />
+          <Route path='/base-game-achievements/quests' element={<QuestA />} />
+          <Route path='/base-game-achievements/settlements' element={<SettlementMilestones />} />
+          <Route path='/base-game-achievements' element={<BaseGameAchievements />} />
+          <Route path='/dlc-achievements' element={<DLCAchievements />} />
           <Route path='/game-guides' element={<GameGuidesHome />} />
           <Route path='/' element={<Home />} />
         </Routes>

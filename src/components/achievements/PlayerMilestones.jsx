@@ -1,7 +1,7 @@
 import React from "react";
-import { Link } from 'react-router-dom';
 import Table from "../reusable/Table";
 import Disclaimer from "../reusable/Disclaimer";
+import AchieveNav from "../AchievementNavBars/achieve-nav";
 
 import PlayerLevel_001 from '../../assets/images/achievement-icons/playerlevel_001.jpg';
 import PlayerLevel_002 from '../../assets/images/achievement-icons/playerlevel_002.jpg';
@@ -18,9 +18,7 @@ function PlayerMilestones() {
 
     return (
         <div className='achieve-home'>
-            <Link to='/achievement-guides'>
-                <p>Back</p>
-            </Link>
+            <AchieveNav />
             <section className='main'>
                 <h1>Player Level Milestones</h1>
                 <Table dat={levels} />

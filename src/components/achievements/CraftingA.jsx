@@ -1,7 +1,7 @@
 import React from "react";
-import { Link } from 'react-router-dom';
 import Table from "../reusable/Table";
 import Disclaimer from "../reusable/Disclaimer";
+import AchieveNav from "../AchievementNavBars/achieve-nav";
 
 import Crafting_001 from '../../assets/images/achievement-icons/crafting_001.jpg';
 import Crafting_002 from '../../assets/images/achievement-icons/crafting_002.jpg';
@@ -19,18 +19,7 @@ function CraftingA() {
 
     return (
         <div className='achieve-home'>
-            <Link to='/achievement-guides'>
-                <p>Back</p>
-            </Link>
-            <section className='sec-intro'>
-                <ul>
-                    <li>Weapons Workbenches are where you mod your weapons</li>
-                    <li>Armor Workbenches are where you mod your armor pieces and vault suits</li>
-                    <li>Chemistry Stations are where you craft medical items, chems, and explosives (with the right perk)</li>
-                    <li>Cooking Stations are where you craft food items and vegetable starch which can be used as a source of adhesive</li>
-                    <li>Power Armor Stations are where you mod your power armor pieces and equip them to a frame</li>
-                </ul>
-            </section>
+            <AchieveNav />
             <section className='main'>
                 <h1>Crafting</h1>
                 <Table dat={crafting} />

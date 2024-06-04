@@ -1,0 +1,13 @@
+.home-nav,
+.home-links {
+    display: flex;
+}
+
+.home-nav {
+    justify-content: space-between;
+    place-items: center;
+}
+
+.home-links {
+    align-items: center;
+}
